@@ -1,1 +1,9 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAiVGhlIEVsZGVyIExhdyBGaXJtIHwgTWVkaWNhaWQsIFZldGVyYW5zICYgU2VuaW9yIExlZ2FsIFNlcnZpY2VzIiwKICBkZXNjcmlwdGlvbjogIkV4Y2x1c2l2ZWx5IGVsZGVyIGxhdy4gTWVkaWNhaWQgcGxhbm5pbmcsIHNwZWNpYWwgbmVlZHMgdHJ1c3RzLCBndWFyZGlhbnNoaXAsIFZBIGJlbmVmaXRzLCBlbGRlciBhYnVzZS4gU2VydmluZyBTb3V0aCBGbG9yaWRhIHNlbmlvcnMgZm9yIDIyIHllYXJzLiIsCn07CmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiA8aHRtbCBsYW5nPSJlbiI+PGJvZHk+e2NoaWxkcmVufTwvYm9keT48L2h0bWw+Owp9Cg==
+import type { Metadata } from "next";
+import "./globals.css";
+export const metadata: Metadata = {
+  title: "The Elder Law Firm | Medicaid, Veterans & Senior Legal Services",
+  description: "Exclusively elder law. Medicaid planning, special needs trusts, guardianship, VA benefits, elder abuse. Serving South Florida seniors for 22 years.",
+};
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body>{children}</body></html>;
+}
