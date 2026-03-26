@@ -1,1 +1,25 @@
-eyJuYW1lIjoidGhlLWVsZGVyLWxhdy1maXJtIiwidmVyc2lvbiI6IjAuMS4wIiwicHJpdmF0ZSI6dHJ1ZSwic2NyaXB0cyI6eyJkZXYiOiJuZXh0IGRldiIsImJ1aWxkIjoibmV4dCBidWlsZCIsInN0YXJ0IjoibmV4dCBzdGFydCIsImxpbnQiOiJuZXh0IGxpbnQifSwiZGVwZW5kZW5jaWVzIjp7Im5leHQiOiIxNS4yLjMiLCJyZWFjdCI6Il4xOS4wLjAiLCJyZWFjdC1kb20iOiJeMTkuMC4wIn0sImRldkRlcGVuZGVuY2llcyI6eyJAdHlwZXMvbm9kZSI6Il4yMCIsIkB0eXBlcy9yZWFjdCI6Il4xOSIsIkB0eXBlcy9yZWFjdC1kb20iOiJeMTkiLCJhdXRvcHJlZml4ZXIiOiJeMTAuNC4yMCIsInBvc3Rjc3MiOiJeOCIsInRhaWx3aW5kY3NzIjoiXjMuNC4xNyIsInR5cGVzY3JpcHQiOiJeNSJ9fQo=
+{
+  "name": "the-elder-law-firm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
